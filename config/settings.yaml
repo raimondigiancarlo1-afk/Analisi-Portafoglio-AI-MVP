@@ -1,0 +1,16 @@
+
+app:
+  title: "Analisi Portafoglio AI – MVP"
+  locale: "it-IT"
+  base_currency: "EUR"
+  allow_auto_rebalance: true
+
+rules:
+  max_single_asset_weight: 0.20
+  max_equity_weight: 0.60
+  min_bond_weight: 0.20
+  max_sector_exposure: 0.25
+
+marginality:
+  optimize_for_advisor_margin: true
+  margin_weight: 0.25  # 0-1, peso nella funzione obiettivo
